@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- сама форма -->
+  <form class="form" action="utr">
+    <!-- берет в рамочку -->
+    <fieldset>
+      <!-- заглавие рамочки -->
+      <legend>Основной</legend>
+      <div class="form-group">
+        <label for="login">Логин</label>
+        <input id="login" type="text" name="login" placeholder="заполнитель">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Пароль</label>
+        <input id="password" type="password" name="password" placeholder="заполнитель">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Текст</legend>
+      <div class="form-group">
+        <label for="write">Подпись</label>
+        <textarea class="textarea" name="write" id="write" cols="30" rows="10" placeholder="заполнитель"></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Текст</legend>
+      <div class="form-group">
+        <button class="btn">Отправить</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
